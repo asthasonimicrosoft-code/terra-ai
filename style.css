@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f7ef;
+    color: #193b2a;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background: #194d35;
+    color: white;
+}
+
+#theme {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero {
+    padding: 75px 20px;
+    background: linear-gradient(135deg, #dcebd6, #a8cda5);
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.hero span {
+    color: #247447;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 22px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #247447;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#planner {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 15px;
+}
+
+input, select {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 13px;
+    border: 1px solid #ccd8ca;
+    border-radius: 7px;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+.about {
+    padding: 40px 20px;
+    background: #dcebd6;
+}
+
+body.dark {
+    background: #14251b;
+    color: #f0f5ef;
+}
+
+body.dark #planner {
+    background: #23392b;
+}
+
+body.dark .hero,
+body.dark .about {
+    background: #1c3526;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    #planner {
+        margin: 20px 12px;
+    }
+}
+```
